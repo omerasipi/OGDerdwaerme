@@ -7,8 +7,14 @@ var map = L.map("map",{
 
 
 
-var wmsLayer = L.tileLayer.wms('https://demo.boundlessgeo.com/geoserver/ows?', {
-    layers: 'ne:ne'
+// var wmsLayer = L.tileLayer.wms('https://demo.boundlessgeo.com/geoserver/ows?', {
+//     layers: 'ne:ne'
+// }).addTo(map);
+
+
+//Map von TG
+var wmsLayer = L.tileLayer.wms('https://wms.geo.admin.ch/', {
+    layers: 'ch.swisstopo.pixelkarte-farbe-pk1000.noscale'
 }).addTo(map);
 
 var ogdLayer = L.tileLayer.wms('https://map.geo.tg.ch/proxy/geofy_chsdi3/erdwaerme_erdwaermesonden?access_key=YoW2syIQ4xe0ccJA&', {
@@ -18,6 +24,9 @@ var ogdLayer = L.tileLayer.wms('https://map.geo.tg.ch/proxy/geofy_chsdi3/erdwaer
     layers: 'Gefahrenhinweise',
     crs: L.CRS.EPSG4326
 }).addTo(map);
+
+
+
 
 function dataList() {
     var wert = document.getElementById('liste').value;
