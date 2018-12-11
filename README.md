@@ -1,1 +1,2 @@
-# OGDerdwaerme
+# erdwaerme
+OGD Thurgau

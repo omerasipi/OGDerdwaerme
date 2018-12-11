@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f7f2f7;
+}
+
+.map {
+    margin: 0;
+    height: 90vh;
+}
+
+footer {
+    background-color: #4cae4c;
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+header {
+    background-color: #4cae4c;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1.5em;
+}
+
+.text {
+    padding-top: 0.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
