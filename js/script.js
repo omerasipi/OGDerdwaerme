@@ -13,8 +13,16 @@ var map = L.map("map",{
 
 
 //Map von TG
-var wmsLayer = L.tileLayer.wms('https://wms.geo.admin.ch/', {
-    layers: 'ch.swisstopo.pixelkarte-farbe-pk1000.noscale'
+// var wmsLayer = L.tileLayer.wms('https://wms.geo.admin.ch/', {
+//     layers: 'ch.swisstopo.pixelkarte-farbe-pk1000.noscale',
+//     opacity: 0.5
+// }).addTo(map);
+
+
+var wmsLayer = L.tileLayer.wms('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    // layers: 'ch.swisstopo.pixelkarte-farbe-pk1000.noscale',
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+    opacity: 0.5
 }).addTo(map);
 
 var ogdLayer = L.tileLayer.wms('https://map.geo.tg.ch/proxy/geofy_chsdi3/erdwaerme_erdwaermesonden?access_key=YoW2syIQ4xe0ccJA&', {
