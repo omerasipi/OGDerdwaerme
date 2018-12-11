@@ -59,20 +59,21 @@
 
 
 <div style="margin: 60px">
-    <form>
+    <form action="index.php" method="post">
         <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
             <small id="emailHelp" class="form-text text-muted">Wir werden Ihre Email niemandem weiter geben.</small>
         </div>
         <div class="form-group">
-            <input type="Name" class="form-control" id="" aria-describedby="emailHelp" placeholder="Name" required>
+            <input type="Name" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Name" required>
         </div>
         <div class="form-group">
-            <textarea class="form-control" id="exampleTextarea" placeholder="Ihre Nachricht" rows="3" required></textarea>
+            <textarea class="form-control" id="text" name="text" placeholder="Ihre Nachricht" rows="3" required></textarea>
         </div>
         <button type="submit" style="background: #4cae4c;border: #449d44" class="btn btn-primary">Submit</button>
     </form>
 </div>
+
 
 
 <footer class="boxi">
