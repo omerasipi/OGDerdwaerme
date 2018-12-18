@@ -11,6 +11,7 @@ Um diese Applikation zu nutzen müssen folgende Schritte unternommen werden.
 
 ```
 -Funktionierende Internetverbindung
+-Mindestens PHP 7
 -Aktivierte ausführung von JavaScripts
 -Empfohlener Browser ist Google Chrome ab Version 71
 ```
