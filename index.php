@@ -51,28 +51,12 @@
 
 <div class="text">
     <h2 style="font-size: 3em; font-weight: bold;">Über die Web-App</h2>
-    <p style="font-size: 1.6em; margin-top:0.5em;">In unserer Web-App geht es um die Erderwärmung im ganzen Kanton Thurgau.<br>
-                                Unsere Daten sind vollkommen vertrauenswürdig, da unsere Informationen von der offiziellen OGD Webseite (open Data Swiss) bereitgestellt worden sind.<br>
-                                Testen Sie unsere Web-Applikation!</p>
+    <p style="font-size: 1.6em; margin-top:0.5em;">Diese Webseite zeigt Daten über Erdwärme im Kanton Thurgau an. Sie zeigt die Zulässigkeit zur Energiegewinnung mit Erdwärmesonden. <br/>
+        Es wird gezeigt, wo dass es gefährlich sein könnte um Erdwärmesonden zu legen (Gefahrenbereich), wo es Verboten ist Erdwärmesonden zu bohren (Verbotszonen)
+        und wo es bereits Erderwärmesondenbohrungen gibt (Erderwärmesondenbohrungen ).  <br/>
+        Die Daten stammen von <a href="https://opendata.swiss/de/dataset/erdwarme-wms-dienst">opendata.swiss</a>. </p>
 </div>
 
-
-
-<div style="margin: 60px">
-    <form action="index.php" method="post">
-        <div class="form-group">
-            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
-            <small id="emailHelp" class="form-text text-muted">Wir werden Ihre Email niemandem weiter geben.</small>
-        </div>
-        <div class="form-group">
-            <input type="Name" class="form-control" name="name" id="name" aria-describedby="emailHelp" placeholder="Name" required>
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" id="text" name="text" placeholder="Ihre Nachricht" rows="3" required></textarea>
-        </div>
-        <button type="submit" style="background: #4cae4c;border: #449d44" class="btn btn-primary">Submit</button>
-    </form>
-</div>
 
 
 
