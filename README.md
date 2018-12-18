@@ -50,4 +50,5 @@ Siehe auch die Liste der [Mitwirkenden](https://github.com/omerasipi/OGDerdwaerm
 ## Lizenz
 
 Diese Applikation kann für alle nicht kommerziellen Zwecke benutzt werden.
+
 © 2018 Jan Reifler, Qendrim Halili, Albin Ademi, Omer Asipi
